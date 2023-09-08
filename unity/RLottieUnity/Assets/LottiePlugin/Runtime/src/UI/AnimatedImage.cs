@@ -16,7 +16,7 @@ namespace LottiePlugin.UI
         internal float AnimationSpeed => _animationSpeed;
         internal bool Loop => _loop;
 
-        [SerializeField] private TextAsset _animationJson;
+        [SerializeField] public TextAsset _animationJson;
         [SerializeField] private RawImage _rawImage;
         [SerializeField] private float _animationSpeed = 1f;
         [SerializeField] private uint _textureWidth;
